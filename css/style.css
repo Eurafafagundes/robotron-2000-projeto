@@ -133,3 +133,108 @@ main {
 
 .controle-contador {
   width: 40px
+    
+    @media only screen and (max-width: 768px) {
+main {
+flex-direction: column;
+margin: 10vh 4vw;
+width: auto;
+height: auto;
+}
+
+.robotron {
+margin: 0 auto;
+flex-basis: 100%;
+}
+
+.robo {
+position: static;
+height: auto;
+width: 100%;
+margin-bottom: 1em;
+}
+
+.botoes {
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+}
+
+.titulo {
+bottom: auto;
+left: auto;
+top: 5rem;
+right: 5rem;
+font-size: 3.5rem;
+line-height: 1;
+}
+
+.box {
+height: auto;
+margin-top: 2em;
+}
+
+.equipamentos {
+flex-basis: 100%;
+margin-top: 2em;
+}
+
+.montador {
+height: auto;
+}
+
+.montador-conteudo {
+padding: 2em 5%;
+}
+
+.controle {
+margin-top: 2em;
+float: none;
+align-self: center;
+}
+
+.controle-contador {
+margin: 0 0.5rem;
+}
+
+.controle-ajuste {
+width: 50px;
+height: 50px;
+font-size: 3em;
+line-height: 50px;
+}
+
+.estatisticas {
+flex-basis: 100%;
+margin-top: 2em;
+padding: 2em 1em 0;
+}
+
+.estatistica {
+flex-direction: column;
+align-items: center;
+margin-bottom: 2em;
+}
+
+.estatistica-titulo {
+order: 2;
+margin-top: 1em;
+text-align: center;
+flex-basis: 100%;
+border-bottom: none;
+}
+
+.estatistica-valor {
+margin: 0;
+order: 1;
+text-align: center;
+flex-basis: 100%;
+}
+
+.producao {
+margin-top: 1em;
+margin-right: 0;
+float: none;
+clear: both;
+}
+}
