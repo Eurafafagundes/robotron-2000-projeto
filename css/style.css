@@ -41,6 +41,8 @@ main {
     position: relative;
     display: flex;
     justify-content: space-between;
+    width: 500px;
+    height: 300px;
 }
 
 .robo {
