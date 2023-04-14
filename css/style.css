@@ -263,3 +263,39 @@ main {
         margin: 10vh auto;
     }
 }
+
+@media screen and (max-width: 768px) {
+main {
+flex-direction: column;
+margin: 10vh 8vw;
+height: auto;
+width: auto;
+}
+.robotron {
+margin: 0;
+flex-basis: auto;
+}
+.robo {
+height: 70%;
+position: absolute;
+left: 50%;
+top: 10%;
+transform: translate(-50%, 0);
+}
+.titulo {
+bottom: 1rem;
+left: 1rem;
+}
+.box {
+height: 70%;
+}
+.equipamentos {
+margin-top: 2em;
+flex-basis: auto;
+}
+.estatisticas {
+margin-top: 2em;
+padding: 1em;
+flex-basis: auto;
+}
+}
